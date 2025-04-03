@@ -1,5 +1,5 @@
 .idea
-pybo.db
+ifitv.db
 *.pyc
 __pycache__
 migrations
