@@ -1,0 +1,23 @@
+<form method="POST" action="/recommend">
+    <label>성별:</label>
+    <select name="gender">
+      <option value="male">남성</option>
+      <option value="female">여성</option>
+    </select>
+  
+    <label>연령대:</label>
+    <input type="text" name="age" placeholder="예: 20대" />
+  
+    <label>선호 장르:</label><br/>
+    <input type="checkbox" name="genres" value="드라마"> 드라마
+    <input type="checkbox" name="genres" value="예능"> 예능
+    <input type="checkbox" name="genres" value="스포츠"> 스포츠
+  
+    <br/><label>선호 채널:</label><br/>
+    <input type="checkbox" name="channels" value="KBS"> KBS
+    <input type="checkbox" name="channels" value="tvN"> tvN
+    <input type="checkbox" name="channels" value="SBS Sports"> SBS Sports
+  
+    <br/><button type="submit">추천 받기</button>
+  </form>
+  
